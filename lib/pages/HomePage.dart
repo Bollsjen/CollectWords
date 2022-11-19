@@ -12,7 +12,7 @@ class HomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<HomePage> {
   final textController = TextEditingController();
-  String showText = "ss";
+  String showText = "";
   final _words = List.empty(growable: true);
 
   @override
